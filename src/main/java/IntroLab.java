@@ -42,6 +42,15 @@ public class IntroLab {
      */
 
     /**
+     * A method that calls printLabMessage with Marja-Leena's response.
+     * @return Marja-Leena's response to the questions.
+     */
+    public static String kiikMarj() {
+        return printLabMessage("Hey", "Marja-Leena Kiik", false,
+                "Looking forward to CS this year!");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +68,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(kiikMarj());
 
 
     }
